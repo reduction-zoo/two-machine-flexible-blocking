@@ -1,5 +1,5 @@
 # Partition → Two-machine flexible blocking
 
-Independent research campaign for the [fixed question](campaigns/two-machine-flexible-blocking/question.md). [State](campaigns/two-machine-flexible-blocking/state.md) records the current evidence and next action.
+Independent campaign for the [fixed question](campaigns/two-machine-flexible-blocking/question.md). [State](campaigns/two-machine-flexible-blocking/state.md) records progress. The [Prepare evidence](campaigns/two-machine-flexible-blocking/work/preparation.md) includes a fixed 120-instance corpus and exact source and target oracles.
 
-The initial commit fixes the question and setup. Prepare is pending; no solution is claimed. Run the campaign from this repository and follow `AGENTS.md`.
+No reduction or solution is claimed. Reproduce with `uv sync --locked` and `uv run --locked python campaigns/two-machine-flexible-blocking/work/check.py --self-test`. See the [candidate contract](campaigns/two-machine-flexible-blocking/work/contract.md).
